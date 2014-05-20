@@ -1,0 +1,21 @@
+.row
+  .col-md-12
+    table.table.table-striped.table-bordered
+      caption Users
+      thead
+        tr
+          th Name
+          th style="width: 100px" &nbsp;
+      tbody
+        tr
+          td
+            .form-group
+              label.sr-only for="user-name" Name
+              = input id="user-name" class="form-control" name="name" placeholder="Enter the user's name"
+          td
+            button.btn.btn-small.btn-warning Add
+        each
+          tr
+            td = title
+            td
+              button.btn.btn-small.btn-success Edit
