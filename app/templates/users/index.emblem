@@ -1,7 +1,7 @@
 .row
   .col-md-12
     table.table.table-striped.table-bordered
-      caption Users
+      caption Users = this
       thead
         tr
           th Name
@@ -16,6 +16,7 @@
             button.btn.btn-small.btn-warning Add
         each
           tr
-            td = title
+            td
+              link-to name 'user.index' id
             td
               button.btn.btn-small.btn-success Edit

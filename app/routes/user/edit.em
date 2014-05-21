@@ -2,6 +2,6 @@
 
 class EditRoute extends Ember.Route
   model: (params) ->
-    User.FIXTURES.findBy('id', params.id)
+    @modelFor('user')
 
 `export default EditRoute`

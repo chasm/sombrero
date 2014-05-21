@@ -1,7 +1,7 @@
 `import User from 'paperhat/models/user'`
 
-class IndexRoute extends Ember.Route
+class NewRoute extends Ember.Route
   model: ->
-    User.FIXTURES
+    new User()
 
-`export default IndexRoute`
+`export default NewRoute`

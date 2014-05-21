@@ -1,7 +1,8 @@
 `import User from 'paperhat/models/user'`
 
 class IndexRoute extends Ember.Route
-  model: (params) ->
+  model: ->
+    console.log ">>>>> Runnning users index route."
     User.FIXTURES
 
 `export default IndexRoute`
