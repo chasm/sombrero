@@ -17,6 +17,6 @@
         each
           tr
             td
-              link-to name 'user.index' id
+              link-to name 'user' id
             td
               button.btn.btn-small.btn-success Edit
