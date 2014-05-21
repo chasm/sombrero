@@ -1,7 +1,7 @@
 .row
   .col-md-12
     table.table.table-striped.table-bordered
-      caption Users = this
+      caption Users
       thead
         tr
           th Name
@@ -11,12 +11,12 @@
           td
             .form-group
               label.sr-only for="user-name" Name
-              = input id="user-name" class="form-control" name="name" placeholder="Enter the user's name"
+              = input id="user-name" class="form-control" name="name" placeholder="Enter the new user's name"
           td
             button.btn.btn-small.btn-warning Add
         each
           tr
             td
-              link-to name 'user' id
+              link-to name 'users.show' id
             td
-              button.btn.btn-small.btn-success Edit
+              link-to "Edit" 'users.edit' this classNames="btn btn-small btn-success"

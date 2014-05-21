@@ -1,1 +1,4 @@
 p This is the new user template
+
+p
+  link-to "All users" 'users.index'

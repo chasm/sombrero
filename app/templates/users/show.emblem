@@ -1,0 +1,14 @@
+p This is the user route!
+
+p = name
+
+p Yeah
+
+p
+  link-to "All users" 'users.index'
+  '
+  ' |
+  link-to "New" 'users.new'
+  '
+  ' |
+  link-to "Edit" 'users.edit' this

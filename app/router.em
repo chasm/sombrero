@@ -3,8 +3,9 @@ class Router extends Ember.Router
 
 Router.map ->
   @resource "users", ->
-    @route "new"
-    @resource "user", { path: ':id' }, ->
-      @route "edit"
+    @route "index", { path: ''        }
+    @route "new",   { path: 'new'     }
+    @route "show",  { path: ':id'     }
+    @route "edit",  { path: ':id/edit'}
 
 `export default Router`
