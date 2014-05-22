@@ -1,3 +1,3 @@
-class FixtureAdapter extends DS.FixtureAdapter
+class ApplicationAdapter extends DS.FixtureAdapter
 
-`export default FixtureAdapter`
+`export default ApplicationAdapter`

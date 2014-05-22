@@ -3,11 +3,11 @@ class Curriculum extends DS.Model
 
 Curriculum.reopenClass
   FIXTURES: [
-    { id: "15752340-dfd9-11e3-8352-82687f4fc15c", title: "E Pluribus Unum" }
-    { id: "1575262e-dfd9-11e3-8352-82687f4fc15c", title: "Posse Comitatus" }
-    { id: "1575282c-dfd9-11e3-8352-82687f4fc15c", title: "Post Hoc Ergo Propter Hoc" }
-    { id: "15752a20-dfd9-11e3-8352-82687f4fc15c", title: "Quid Pro Quo" }
-    { id: "15752c0a-dfd9-11e3-8352-82687f4fc15c", title: "Audentes Fortuna Iuvat" }
+    { id: "0b45aeaf-ffaf-4ec0-9846-0d20132cfa2e", title: "E Pluribus Unum" }
+    { id: "c120d10b-a5cb-43dc-93ab-86ef69faf731", title: "Posse Comitatus" }
+    { id: "1416d118-f7f3-4270-8eec-ee550d1c8936", title: "Post Hoc Ergo Propter Hoc" }
+    { id: "214aa760-0349-497a-b160-3ed2c3c99e34", title: "Quid Pro Quo" }
+    { id: "1df9abb7-f4c6-43f5-97b3-4346542f79af", title: "Audentes Fortuna Iuvat" }
   ]
 
 `export default Curriculum`

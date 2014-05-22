@@ -4,11 +4,11 @@ class User extends DS.Model
 
 User.reopenClass
   FIXTURES: [
-    { id: "15752340-dfd9-11e3-8352-82687f4fc15c", name: "Bob", email: "bob@example.com" }
-    { id: "1575262e-dfd9-11e3-8352-82687f4fc15c", name: "Sue", email: "sue@example.com" }
-    { id: "1575282c-dfd9-11e3-8352-82687f4fc15c", name: "George", email: "george@example.com" }
-    { id: "15752a20-dfd9-11e3-8352-82687f4fc15c", name: "Sally", email: "sally@example.com" }
-    { id: "15752c0a-dfd9-11e3-8352-82687f4fc15c", name: "Betty Jo", email: "betty.jo@example.com" }
+    { id: "d2d5dd48-e3bd-4a87-aef3-3d05e3e0326d", name: "Bob", email: "bob@example.com" }
+    { id: "75350ac9-e7e2-4036-8942-25fc9b3e5d9e", name: "Sue", email: "sue@example.com" }
+    { id: "9368d350-e2df-48a4-83f2-24817ff90a18", name: "George", email: "george@example.com" }
+    { id: "29cd4f53-25b8-4443-b4f6-12eae3e148d7", name: "Sally", email: "sally@example.com" }
+    { id: "9c2dccaa-d076-4628-bff6-e5c02554b9ae", name: "Betty Jo", email: "betty.jo@example.com" }
   ]
 
 `export default User`

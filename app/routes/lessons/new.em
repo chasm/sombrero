@@ -1,7 +1,7 @@
-`import User from 'paperhat/models/user'`
+`import Lesson from 'paperhat/models/lesson'`
 
 class IndexRoute extends Ember.Route
   model: ->
-    User.FIXTURES
+    Lesson.FIXTURES
 
 `export default IndexRoute`

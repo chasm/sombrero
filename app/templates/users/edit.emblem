@@ -1,12 +1,3 @@
 p This is the user edit form route.
 
 p = name
-
-p
-  link-to "All users" 'users.index'
-  '
-  ' |
-  link-to "New" 'users.new'
-  '
-  ' |
-  link-to "Show" 'users.show' this

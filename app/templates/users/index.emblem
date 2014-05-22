@@ -11,12 +11,11 @@
           td
             .form-group
               label.sr-only for="user-name" Name
-              = input id="user-name" class="form-control" name="name" placeholder="Enter the new user's name"
+              = input id="user-name" class="form-control" name="name" placeholder="Enter the user's name"
           td
             button.btn.btn-small.btn-warning Add
         each
           tr
+            td = title
             td
-              link-to name 'users.show' id
-            td
-              link-to "Edit" 'users.edit' this classNames="btn btn-small btn-success"
+              button.btn.btn-small.btn-success Edit
